@@ -1,0 +1,63 @@
+#g-dialog legend {
+    display: block !important;
+    padding: 0;
+}
+/* save some vertical space */
+textarea {
+    height: 4em !important;
+}
+#custom_fields_form li, #custom_fields_form fieldset {
+  clear: both;
+}
+/* month/year pair need exception to be shown on the same line, will handle via js
+#custom_fields_form fieldset fieldset li {
+  clear: none;
+}
+*/
+#custom_fields_form input, #custom_fields_form select, #custom_fields_form textarea {
+  clear: both;
+  display: block;
+}
+
+#custom_fields_form legend, #custom_fields_form label {
+  display: inline;
+  padding: 0;
+}
+/* Add some spacing between li items, used with checkboxes */
+#g-dialog ul li {
+  padding-right: 5px;
+}
+
+#g-add-album-form > fieldset > ul > li > label, #g-edit-album-form > fieldset > ul > li > label {
+  font-weight: bold;
+}
+
+/* 2 column checkbox formattin */
+fieldset .checkbox_group ul, .radio_group ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset .checkbox_group li, .radio_group label {
+  float: left;
+  width: 47%;
+  margin: 0;
+}
+
+.checkbox_group ul li {
+  padding: 0.2em !important;
+}
+
+/* search page hacks */
+#g-search-form > fieldset > ul > li {
+  clear: both;
+}
+
+fieldset .checkbox_group li, .radio_group label {
+  width: 100%;
+}
+
+#top-search-submit {
+  clear: none !important;
+}

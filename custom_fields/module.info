@@ -1,0 +1,7 @@
+name = "Custom Fields"
+description = "Allows adding extra metadata to photos and albums that are searchable as well"
+version = 8
+author_name = "Jozsef Rekedt-Nagy"
+author_url = "http://www.site.hu"
+info_url = "http://codex.gallery2.org/Gallery3:Module:gallery"
+discuss_url = "http://gallery.menalto.com/forum_module_gallery"
